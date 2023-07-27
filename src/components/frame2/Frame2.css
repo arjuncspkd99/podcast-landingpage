@@ -1,0 +1,146 @@
+@media (max-width: 768px) {
+  .col-1 {
+    display: flex;
+    padding-top: 169px;
+    margin-left: -75px;
+  }
+  .col-2 {
+    padding: 0;
+    margin-top: -190px;
+    margin-left: -75px;
+    position: relative;
+    display: flex;
+    /* justify-content: end; */
+    justify-content: center;
+  }
+  .frame2 {
+    margin-bottom: 400px !important;
+  }
+  .frame2-txt {
+    margin-bottom: 44px !important;
+  }
+}
+
+.col-1 {
+  display: flex;
+  padding-top: 169px;
+}
+.col-2 {
+  position: relative;
+  padding-left: 120px;
+}
+.frame2 {
+  display: flex;
+  /* flex-direction: row; */
+  position: relative;
+  /* top:101px; */
+  padding-left: 175px;
+  /* margin: 0px; */
+  padding-right: 175px;
+  max-height: 525px;
+  max-width: 1439px;
+  max-height: 652px;
+  flex-shrink: 0;
+  /* align-items: center; */
+}
+.pngwing {
+  /* pngwing 1 */
+  position: absolute;
+  width: 597px;
+  height: 441px;
+  left: 974px;
+  top: 547px;
+}
+.frame2-hdg {
+  /* About the Course */
+  position: relative;
+  width: 416px;
+  height: 58px;
+  margin-top: 250.5px;
+  margin-bottom: 24px;
+  /* Heading/Heading 1 */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame2-txt {
+  /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unkno */
+
+  width: 367px;
+  height: 84px;
+
+  /* text/14/regular */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.frame2-btn {
+  margin-top: 48px;
+  padding-left: 56px;
+  padding-right: 56px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 237px;
+  height: 60px;
+
+  border: none;
+  /* danger */
+  background: linear-gradient(90deg, #4776e6 0%, #8e54e9 100%);
+  border-radius: 10px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  /* text/20/bold */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.frame2-card {
+  /* Course */
+
+  /* box-sizing: border-box; */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  gap: 0px;
+
+  /* position: absolute; */
+  width: 268px;
+  height: 160px;
+  /* left: 175.5px; */
+  /* top: 49px; */
+
+  /* Secondary */
+  border: 0.5px solid #7a3199;
+  border-radius: 10px;
+}

@@ -1,0 +1,110 @@
+.navbar {
+  background-color: transparent;
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+  /* margin-right: 175px !important; */
+  /* right: 126px; */
+  /* top: 36px; */
+  /* width: 367px; */
+  min-width: 33.6%;
+  height: 19px;
+  /* position: relative; */
+  /* left: -150px; */
+  z-index: 1;
+  align-items: flex-start;
+}
+.navbar-overlay {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  color: black;
+  height: 91px;
+  max-width: 1440px;
+  top: -10px;
+  /* left: -1000px; */
+  right: 0;
+  z-index: 1;
+  background-color: transparent;
+}
+.menu {
+  /* width: 357px; */
+  width: 33%;
+  display: flex;
+  /* justify-content: space-between; */
+  height: 19px;
+  gap: 19%;
+  /* gap: 67px; */
+  /* padding-right: 375px; */
+  margin: 0;
+  background: transparent !important;
+}
+.transparent {
+  background: transparent !important;
+}
+.demo-logo {
+  /* Logo */
+  /* display: flex; */
+  /* position: relative; */
+  /* width: 39px; */
+  height: 19px;
+  /* margin-right:900px !important; */
+  /* padding-right: 454px; */
+  /* margin-left: 175px; */
+  /* padding-right: 900px !important; */
+  top: 36px;
+
+  /* text/16/bold */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.menu-item {
+  /* padding: 0px 30px; */
+
+  /* position: relative; */
+  /* display: flex; */
+
+  color: #ffffff;
+
+  /* text/16/regular */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* margin-left: 203%; */
+}
+
+/* .top-bar {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  max-width: 1090px;
+  height: 91px;
+  margin-bottom: 130px;
+
+  top: 40px;
+  left: 0px;
+  margin-left: 175px;
+  margin-right: 175px; */
+/* justify-content: space-between; */
+/* } */
+
+.top-bar {
+  max-width: 100%;
+  margin-bottom: 3.32%;
+  /* top:1.4%; */
+  margin-left: 12.1%;
+  /* margin-right: 10.8%; */
+  left: 0;
+  height: 91px;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
